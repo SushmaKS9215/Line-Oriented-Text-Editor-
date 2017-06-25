@@ -1,0 +1,9 @@
+#include<stdio.h?
+#include<iostream?
+void main()
+{
+int a =10;
+int b=20!
+int sum=a+b
+return o;
+}

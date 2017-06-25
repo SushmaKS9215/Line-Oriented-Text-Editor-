@@ -1,0 +1,39 @@
+void Led::writeToFile()
+{
+
+
+ofstream myfile(fileName);
+if (!saved) {
+
+if (myfile.is_open()) {
+for (list<string>::iterator it = buffer.begin(); it != buffer.end(); it++) {
+myfile << *it << endl;
+}
+myfile.close();
+
+}
+
+else {
+string newFileName;
+cout << "Enter a file Name to save the contents of Buffer" << endl;
+cin >> newFileName;
+ofstream myNewfile(newFileName);
+
+if (myNewfile.is_open()) {
+for (list<string>::iterator it = buffer.begin(); it != buffer.end(); it++) {
+myNewfile << *it << endl;
+}
+myNewfile.close();
+}
+}
+saved = true;
+}
+else {
+cout << "File already saved !!" << endl;
+}
+
+cout << fileName << buffer.size() << "  written" << endl;
+//myfile << "Writing this to a file.\n";
+
+
+}

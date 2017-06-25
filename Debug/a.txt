@@ -1,0 +1,30 @@
+//Driver Program to test the 
+//Led class implemented in assignment 2
+#include<cstdlib>
+#include<iostream>
+#include<string>
+using std::cout;
+using std::endl;
+using std::string;
+#include "Led.h"
+
+int main(int argc,char*argv[])
+{
+	string filename; //an empty line
+	//determine the filename
+	switch(argc)
+	{
+	case1 : //no file name
+	break; 
+	
+	case2: //read from argument string
+	filename =argv[1]; //initualize filename
+	break;
+	
+	default :
+	cout<<"to< many arguments -al discareded"<<endl;
+	}
+	Led led(filename);
+	led.run();
+	return 0;
+}

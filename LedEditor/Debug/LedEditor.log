@@ -1,0 +1,12 @@
+﻿  Led.cpp
+c:\users\sushma\documents\visual studio 2017\projects\lededitor\lededitor\led.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\sushma\documents\visual studio 2017\projects\lededitor\lededitor\led.cpp(120): warning C4018: '<=': signed/unsigned mismatch
+c:\users\sushma\documents\visual studio 2017\projects\lededitor\lededitor\led.cpp(223): warning C4018: '<=': signed/unsigned mismatch
+c:\users\sushma\documents\visual studio 2017\projects\lededitor\lededitor\led.cpp(265): warning C4018: '<=': signed/unsigned mismatch
+c:\users\sushma\documents\visual studio 2017\projects\lededitor\lededitor\led.cpp(524): warning C4018: '<=': signed/unsigned mismatch
+  Driver.cpp
+c:\users\sushma\documents\visual studio 2017\projects\lededitor\lededitor\led.h(5): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Command.cpp
+  Generating Code...
+  LedEditor.vcxproj -> C:\Users\Sushma\documents\visual studio 2017\Projects\LedEditor\Debug\LedEditor.exe
+  LedEditor.vcxproj -> C:\Users\Sushma\documents\visual studio 2017\Projects\LedEditor\Debug\LedEditor.pdb (Partial PDB)
